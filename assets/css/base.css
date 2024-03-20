@@ -30,8 +30,15 @@ html {
 .grid__row {
     display: flex;
     flex-wrap: wrap;
+}
 
+/* Animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
 
-
-
+    to {
+        opacity: 1;
+    }
 }
