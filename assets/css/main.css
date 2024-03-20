@@ -17,9 +17,20 @@
 }
 
 .header__navbar-item {
+
     margin: 0 8px;
     position: relative;
+    min-height: 26;
 }
+
+.header__navbar-item,
+.header__navbar-item-link,
+.header__navbar-icon-link {
+    display: inline-flex;
+    align-items: center;
+
+}
+
 
 .header__navbar-item,
 .header__navbar-item-link {
@@ -32,10 +43,12 @@
     font-weight: 300;
     /* chữ mỏng hơn*/
 }
+
 .header__navbar-item:hover,
+.header__navbar-icon-link:hover,
 .header__navbar-item-link:hover {
     cursor: pointer;
-    color: rgba(255,255,255,0.7);
+    color: rgba(255, 255, 255, 0.7);
 }
 
 
@@ -54,7 +67,19 @@
     top: 50%;
     transform: translateY(-50%);
 }
-.header__navbar-icon-link{
+
+.header__navbar-icon-link {
     color: var(--white-color);
-    text-decoration: none; /* bỏ gạch chân*/
+    text-decoration: none;
+    /* bỏ gạch chân*/
+}
+
+.header__navbar-icon {
+    font-size: 1.8rem;
+    margin: 0 6px;
+}
+
+.header__navbar-title--no-pointer {
+    cursor: default;
+    color: var(--white-color);
 }

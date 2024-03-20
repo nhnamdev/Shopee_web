@@ -16,19 +16,21 @@ html {
     box-sizing: border-box;
 }
 
-.grid{
-    width: 1200px  ;
+.grid {
+    width: 1200px;
     max-width: 100%;
     margin: 0 auto;
-   
+
 }
-.grid_full-width{
+
+.grid_full-width {
     width: 100%;
 }
-.grid__row{
+
+.grid__row {
     display: flex;
     flex-wrap: wrap;
-    
+
 
 
 
