@@ -1,0 +1,60 @@
+.header {
+    height: 120px;
+    background: #d0011b;
+}
+
+.header__navbar {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.header__navbar-list {
+    list-style: none;
+    /* bỏ chấm đầu list*/
+    padding-left: 0%;
+
+}
+
+.header__navbar-item {
+    margin: 0 8px;
+    position: relative;
+}
+
+.header__navbar-item,
+.header__navbar-item-link {
+    display: inline-block;
+    /* cho list ul cùng hàng */
+    font-size: 1.2rem;
+    color: var(--white-color);
+    text-decoration: none;
+    /* bỏ gạch chân*/
+    font-weight: 300;
+    /* chữ mỏng hơn*/
+}
+.header__navbar-item:hover,
+.header__navbar-item-link:hover {
+    cursor: pointer;
+    color: rgba(255,255,255,0.7);
+}
+
+
+.header__navbar-item--strong {
+    font-weight: 400;
+}
+
+.header__navbar-item--separate::after {
+    content: "";
+    display: block;
+    position: absolute;
+    border-left: 1px solid #fff;
+    height: 20px;
+    right: -9px;
+    /* đếm ngược từ chữ đăng nhập 9px*/
+    top: 50%;
+    transform: translateY(-50%);
+}
+.header__navbar-icon-link{
+    color: var(--white-color);
+    text-decoration: none; /* bỏ gạch chân*/
+}
