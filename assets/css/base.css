@@ -16,7 +16,6 @@
 }
 
 html {
-   
     font-size: : 62.5%;
     line-height: 1.6rem;
     font-family: "Roboto", sans-serif;
@@ -196,6 +195,7 @@ html {
     display: block;
 }
 .select-input__list{
+    z-index: 1;
     position: absolute;
     left: 0;
     right: 0;
