@@ -1547,3 +1547,66 @@ i.home-product-item__like-icon-fill {
     text-align: center;
     font-weight: 300;
 }
+.flash-sale-container{
+    margin-top: 20px;
+    display: block;
+    border-radius: 5px;
+}
+.flash-sale{
+
+    padding-top: 20px;
+    margin: auto;
+    background-color: var(--white-color) ;
+    width: 86%;
+
+    
+    
+}
+.flash_sale-header{
+    margin: 0 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.flash_sale-label{
+    
+}
+.flash_sale_show-all{
+    color: var(--primary-color);
+}
+.flash_sale_show-all-icon{
+    color: var(--primary-color);
+}
+.flash_sale-product{
+    margin: 5px 20px;
+    width: 200px;
+    height: 260px;
+    display: flex;
+}
+.flash_sale-product-item{
+    text-align: center;
+    margin: 0 10px;
+
+}
+.flash_sale-product-img{
+    width: 190px;
+    height: 200px;
+}
+.flash_sale-product-price{
+    text-align: center;
+    color: var(--primary-color);
+
+}
+.flash_sale-product_dangbanchay_border{
+    margin-left: 8px;
+    text-align: center;
+    width: 180px;
+    background-color: #fabaa3;
+    border-radius: 10px;
+
+}
+.flash_sale-product_dangbanchay_label{
+    margin-top: 5px;
+    color: var(--white-color);
+    text-align: center;
+    font-size: 0.9rem;
+}
